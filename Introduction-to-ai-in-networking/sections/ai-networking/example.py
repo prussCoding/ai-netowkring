@@ -1,3 +1,7 @@
+# pip3 install --upgrade pip
+# pip3 install numpy
+# pip install -U scikit-learn scipy matplotlib
+
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
