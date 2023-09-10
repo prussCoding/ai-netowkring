@@ -66,8 +66,8 @@ network.add_edge("C", "D", 3)
 network.add_edge("D", "E", 1)
 
 # Find the shortest path from node A to E using Dijkstra's algorithm
-start_node = "B"
-end_node = "D"
+start_node = "A"
+end_node = "E"
 shortest_distance = network.dijkstra(start_node=start_node, end_node=end_node)
 
 logging.info(f"Shortest Distance from {start_node} to {end_node}: {shortest_distance}")
